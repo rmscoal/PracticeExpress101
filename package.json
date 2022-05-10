@@ -1,0 +1,36 @@
+{
+  "name": "own-express",
+  "version": "1.0.0",
+  "description": "*This is a practice for ExpressJs and integrated with MySQL! 💕*",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "deep-email-validator": "^0.1.21",
+    "ejs": "^3.1.7",
+    "express": "^4.18.0",
+    "express-session": "^1.17.2",
+    "js-sha256": "^0.9.0",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.7.4",
+    "passport": "^0.5.2",
+    "uuid": "^8.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmscoal/ExpressJs-Practice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rmscoal/ExpressJs-Practice/issues"
+  },
+  "homepage": "https://github.com/rmscoal/ExpressJs-Practice#readme"
+}
